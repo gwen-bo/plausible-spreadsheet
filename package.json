@@ -1,0 +1,28 @@
+{
+	"name": "plausible-to-databox",
+	"version": "1.0.0",
+	"description": "Connecting plausible data to databox dashboard",
+	"main": "bin/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"plausible-fetch": "./bin/index.js"
+	},
+	"keywords": [
+		"plausible",
+		"databox",
+		"data"
+	],
+	"author": "gwen-bo",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.25.0",
+		"chalk": "^5.0.0",
+		"commander": "^9.0.0",
+		"conf": "^10.1.1",
+		"databox": "^2.0.1",
+		"google-spreadsheet": "^3.2.0",
+		"inquirer": "^8.2.0"
+	}
+}
