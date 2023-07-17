@@ -5,7 +5,7 @@ CLI-tool to automate writing plausible data to google spreadsheet.
 ## How to use:
 
 1. Clone this repo by using `git clone https://github.com/gwen-bo/plausible-spreadsheet.git`
-2. Navigate to the directory of this project by using your terminal and install the '_package_' globally by using `npm install -g`
+2. Using the terminal: navigate to the directory of this project and install the '_package_' globally by using `npm install -g`
 3. Now you can use this tool anywhere in your system by calling `plausible-fetch` and then with the `connect command`, so: `plausible-fetch connect`.
 
 ## If you want to add this tool to a new google spreadsheet :
